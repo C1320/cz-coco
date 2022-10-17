@@ -1,9 +1,20 @@
+<!--
+ * @Descripttion:
+ * @version:
+ * @Author: 十三
+ * @Date: 2022-10-15 19:29:21
+ * @LastEditors: 十三
+ * @LastEditTime: 2022-10-17 18:17:25
+-->
+
 ---
+
 home: true
 heroImage: https://artice-code-1258339218.cos.ap-beijing.myqcloud.com/vuepress/element-index.png
 heroText: 组件库&工具库
 tagline: 更小的体积，更快的响应，更强的拓展性
 actions:
+
 - text: 快速上手
   link: /components/install
   type: primary
@@ -34,3 +45,6 @@ actions:
     <p style="margin:0px;font-size: 12px;color:#666">Controllability</p>
   </div>
 </div>
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->

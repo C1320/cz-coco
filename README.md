@@ -17,3 +17,6 @@
 - es/lib两种规范
 - theme-chalk
 - 最终发布的模块就是dist模块
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
