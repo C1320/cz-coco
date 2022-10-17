@@ -1,7 +1,11 @@
+name: docs
+
 on:
+  # 每当 push 到 main 分支时触发部署
   push:
-    branches:[feature/readme]
-name: Generate a list of contributors
+    branches: [feature/readme]
+  # 手动触发部署
+  workflow_dispatch:
 
 jobs:
   contrib-readme-en-job:
@@ -11,4 +15,4 @@ jobs:
       - name: Contribute List
         uses: akhilmhdh/contributors-readme-action@v2.3.4
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CONTRIBUTORS_TOKEN }}
