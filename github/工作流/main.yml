@@ -1,7 +1,7 @@
 on:
     push:
         branches:
-            - master
+            - feature/readme
 
 jobs:
     contrib-readme-job:
